@@ -1,0 +1,6 @@
+Jun 01 08:20:10 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Jun 01 08:20:10 ubuntu nginx[2201]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Jun 01 08:20:10 ubuntu nginx[2201]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Jun 01 08:20:10 ubuntu systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Jun 01 08:20:10 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Jun 01 08:20:10 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
