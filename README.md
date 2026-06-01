@@ -1,8 +1,18 @@
 # UbuntuOps Agent
 
+[![CI](https://github.com/Nasir-ux1/ubuntuops-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Nasir-ux1/ubuntuops-agent/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Nasir-ux1/ubuntuops-agent?include_prereleases&label=release)](https://github.com/Nasir-ux1/ubuntuops-agent/releases/tag/v0.1.0)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
+
 UbuntuOps Agent is an Ubuntu/Linux incident response toolkit that collects diagnostics, detects common failure patterns, recommends fixes, and writes structured incident reports.
 
 It is built as a portfolio-grade Linux/SRE project: practical CLI commands, modular collectors, analyzers, sample logs, tests, and a dashboard.
+
+## Demo
+
+![UbuntuOps CLI screenshot](docs/assets/ubuntuops-cli.png)
+
+![UbuntuOps animated demo](docs/assets/ubuntuops-demo.gif)
 
 ## What It Diagnoses
 
