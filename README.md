@@ -123,30 +123,3 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 4 failed SSH attempts found; top source is 203.0.113.10 with 3.
 Fix: Enable fail2ban, disable password auth, enforce SSH keys, and review firewall rules.
 ```
-
-## Why This Project Is Strong
-
-This project shows practical Linux engineering, not just API usage. It demonstrates:
-
-- Linux troubleshooting
-- `systemd` and journald debugging
-- `/proc` data collection
-- Security log analysis
-- Docker operations
-- Incident report generation
-- Modular Python architecture
-- Testable failure-pattern detection
-
-## Resume Bullet
-
-```text
-Built UbuntuOps Agent, an Ubuntu incident response toolkit that collects diagnostics from systemd, journald, /proc, Docker, and auth logs to detect likely root causes, recommend fixes, and generate structured incident reports.
-```
-
-## Roadmap
-
-- Add Ansible fleet mode for multiple Ubuntu servers
-- Add OpenAI/local LLM narrative summarization
-- Add remediation approval workflow
-- Add Prometheus exporter mode
-- Add Docker Compose lab with intentionally broken services
